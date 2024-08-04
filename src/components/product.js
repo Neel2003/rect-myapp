@@ -1,8 +1,9 @@
 import React from 'react'
 
 const Product = ({name, imgUrl, price}) => {
-
-    // pure java script can be written here
+    // let oldprice = price;
+    // price = oldprice + 150;
+    // console.log(price);
     return(
         <figure>
             <img src={imgUrl} alt=''></img>
